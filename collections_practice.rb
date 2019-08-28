@@ -38,6 +38,6 @@ def sum_array(array)
  array.inject(0) {|num, x| num + x}
 end 
 
-def add_s(array
+def add_s(array)
   new << array.each.collect {|word| word + "s"}
 end
